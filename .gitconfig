@@ -1,7 +1,7 @@
 [alias]
-	ci = commit
-	cia = commit --amend
-	cim = commit -m
+  ci = commit
+  cia = commit --amend
+  cim = commit -m
   br = branch -r --contains
   co = checkout
   ds = diff --staged
@@ -13,8 +13,8 @@
   sa = stash apply
   st = status
 [user]
-	name = Daan De Deckere
-	email = daandedeckere@gmail.com
+  name = Daan De Deckere
+  email = daandedeckere@gmail.com
 [core]
-	excludesfile = ~/.gitignore_global
-	pager = less -x2
+  excludesfile = ~/.gitignore_global
+  pager = less -x2
