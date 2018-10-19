@@ -1,0 +1,20 @@
+[alias]
+	ci = commit
+	cia = commit --amend
+	cim = commit -m
+  br = branch -r --contains
+  co = checkout
+  ds = diff --staged
+  ll = log --pretty=format:"%C(yellow)%h%Cred%d\\ %ad\\ %Creset%s%Cblue\\ [%cn]" --decorate --numstat
+  ls = log --pretty=format:"%C(yellow)%h%Cred%d\\ %ad\\ %Creset%s%Cblue\\ [%cn]" --decorate
+  lt = !sh ~/git/timesheets.sh
+  pr = pull --rebase --stat
+  rc = rebase --continue
+  sa = stash apply
+  st = status
+[user]
+	name = Daan De Deckere
+	email = daandedeckere@gmail.com
+[core]
+	excludesfile = ~/.gitignore_global
+	pager = less -x2

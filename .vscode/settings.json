@@ -1,0 +1,39 @@
+{
+  "editor.renderWhitespace": "all",
+  "editor.tabSize": 2,
+  "emmet.includeLanguages": {
+    "nunjucks": "html",
+    "javascript": "javascriptreact"
+  },
+  "files.trimTrailingWhitespace": true,
+  "files.insertFinalNewline": true,
+  "files.trimFinalNewlines": true,
+  "workbench.colorTheme": "Material Theme",
+  "workbench.iconTheme": "eq-material-theme-icons",
+  "workbench.colorCustomizations": {
+    "activityBarBadge.background": "#00BCD4",
+    "list.activeSelectionForeground": "#00BCD4",
+    "list.inactiveSelectionForeground": "#00BCD4",
+    "list.highlightForeground": "#00BCD4",
+    "scrollbarSlider.activeBackground": "#00BCD450",
+    "editorSuggestWidget.highlightForeground": "#00BCD4",
+    "textLink.foreground": "#00BCD4",
+    "progressBar.background": "#00BCD4",
+    "pickerGroup.foreground": "#00BCD4",
+    "tab.activeBorder": "#00BCD4"
+  },
+  "scssLint.configDir": "~",
+  "editor.wordWrap": "on",
+  "editor.renderControlCharacters": true,
+  "vim.easymotion": true,
+  "vim.enableNeovim": true,
+  "vim.leader": " ",
+  "window.zoomLevel": 0,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "terminal.external.osxExec": "iTerm.app",
+  "terminal.integrated.shell.osx": "zsh",
+  "gitlens.advanced.messages": {
+    "suppressShowKeyBindingsNotice": true
+  },
+  "vim.neovimPath": "/usr/local/bin/nvim"
+}
